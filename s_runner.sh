@@ -1,8 +1,9 @@
 echo running... 
-TS=$(date +"y%Y.%y%m%d.%H%M%S.%s")
+DS=$(date +"y%Y.%y%m%d.%H%M%S")
+echo $DS
+TS=$(date +"s%s")
 echo $TS
 cp s_runner.sh saved_runner.$TS
-date
 git remote add gh git@github.com:wolfhesse/x-ase-shellscript-utility.git
 echo pulling gh
 git pull gh master 
@@ -21,6 +22,7 @@ echo ---
 echo try: commit to github
 git add -A .
 git commit -m 'builder commit'
+git push gh master
 git push gh HEAD:builder
 echo finalizer
 echo .fin
