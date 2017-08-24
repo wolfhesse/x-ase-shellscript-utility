@@ -12,7 +12,7 @@ echo psd-command $(pwd)
 echo touch file running in run.d
 echo touched >> ./run.d/.touched
 date >> ./run.d/.touched
-echo $DS $TS >> /run.d/.systems
+echo $DS $TS >> ./run.d/.systems
 uname -a >> ./run.d/.systems
 echo listing files
 ls -al
