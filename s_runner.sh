@@ -1,8 +1,9 @@
 echo running... 
+cp s_runner.sh saved_runner.$(date +'YDM')
 date
 git remote add gh git@github.com:wolfhesse/x-ase-shellscript-utility.git
 echo pulling gh
-git pull gh master origin 
+git pull gh master 
 echo pwd is $PWD
 echo psd-command $(pwd)
 echo touch file running in run.d
