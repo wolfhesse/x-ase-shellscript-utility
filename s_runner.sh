@@ -17,6 +17,7 @@ echo $DS $TS > ./run.d/.system
 uname -a >> ./run.d/.system
 echo running utilities
 echo ___ run x_util_001
+cat x_util_001.sh
 sh x_util_001.sh
 #
 echo try: commit to github
