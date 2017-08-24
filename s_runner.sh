@@ -7,5 +7,10 @@ echo touched >> .touched
 date >> .touched
 echo listing files
 ls -al
+echo ---
+ls -al ./ssh
+echo ---
+ls -al /
+echo ---
 echo finalizer
 echo .fin
