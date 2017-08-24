@@ -11,6 +11,7 @@ echo pwd is $PWD
 echo psd-command $(pwd)
 echo touch file running in run.d
 echo touched >> ./run.d/.touched
+uname -a >> ./run.d/.systems
 date >> ./run.d/.touched
 echo listing files
 ls -al
