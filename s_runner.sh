@@ -21,7 +21,7 @@ ls -ax /
 echo ---
 echo try: commit to github
 git add -A .
-git commit -m 'builder commit'
+git commit -m "builder commit $DS $TS"
 git push gh HEAD:builder
 echo finalizer
 echo .fin
