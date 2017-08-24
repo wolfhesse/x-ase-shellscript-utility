@@ -1,1 +1,3 @@
 echo running... 
+echo pwd is $PWD
+echo psd-command $(pwd)
