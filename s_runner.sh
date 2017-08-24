@@ -1,4 +1,5 @@
 echo running... 
+date
 echo pwd is $PWD
 echo psd-command $(pwd)
 echo touch file (running in run.d)
