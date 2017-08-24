@@ -19,7 +19,7 @@ git fetch gh
 #--all
 git add -A ..
 git commit -m 'builder commit'
-git pull gh
-git push gh
+git pull gh master
+git push gh HEAD:builder
 echo finalizer
 echo .fin
