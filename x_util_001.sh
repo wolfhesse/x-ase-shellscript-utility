@@ -10,7 +10,7 @@ exec 1>"data.d/$X_SCRIPT.res"
 
 # precond: exists data.d
 # 
-echo // $X_SCRIPT @ $(date) >> data.d/.touched
+echo // $X_SCRIPT PAT_ANF @ $(date) > data.d/.touched
 echo // $X_SCRIPT PAT_ANF @ $(date) 
 
 echo === which system
